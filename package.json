@@ -1,0 +1,11 @@
+{
+  "name": "pal-fdtn",
+  "version": "1.0.0",
+  "description": "Palestroni Foundation Grant Application Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Allison Serrano",
+  "license": "ISC"
+}
