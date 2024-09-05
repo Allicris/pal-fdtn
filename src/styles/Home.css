@@ -1,0 +1,50 @@
+h1 {
+  font-size: 2em;
+  margin-left: 1em;
+  margin-top: 2.75em;
+  padding: 1em;
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+}
+
+h1:after {
+  margin-top: .75em;
+  content: "";
+  display: block;
+  border: .02em solid black;
+}
+
+.applications {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.application {
+  display: block;
+  padding: 1em;
+  text-align: center;
+  color: rgb(233, 219, 193);
+  border: .10em solid rgb(92, 84, 77);
+  border-radius: .50em;
+}
+
+.application p {
+  font-size: 1.25em;
+  padding: .25em;
+  font-family: 'Lora', sans-serif;
+}
+
+.application button {
+  padding: .5em;
+  border-radius: .50em;
+  background-color: rgb(161, 130, 104);
+  color:rgb(206, 205, 203);
+  border-color: rgb(203, 203, 203);
+  font-family: 'Lora', sans-serif;
+}
+
+.application button:hover {
+  cursor: pointer;
+}

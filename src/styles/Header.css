@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: .50em;
+  padding: .25em;
+  font-size: 3em;
+  color: rgb(197, 181, 170);
+  font-family: 'Playfair Display', sans-serif;
+  font-style: italic;
+}
