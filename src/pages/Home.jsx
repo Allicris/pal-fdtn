@@ -24,7 +24,7 @@ function Home() {
           </button>
         </div>
         <div className="application">
-          <p>Morristow Medical Center</p>
+          <p>Morristown Medical Center</p>
           <button>
             <a href={morris}>View Application</a>
           </button>
