@@ -5,13 +5,14 @@ h1 {
   padding: 1em;
   font-family: 'Lora', sans-serif;
   font-weight: 400;
+  color: rgb(197, 181, 170);
 }
 
 h1:after {
   margin-top: .75em;
   content: "";
   display: block;
-  border: .02em solid black;
+  border: .02em solid rgb(110, 110, 110);
 }
 
 .applications {
@@ -31,20 +32,33 @@ h1:after {
 }
 
 .application p {
-  font-size: 1.25em;
+  font-size: 1em;
   padding: .25em;
   font-family: 'Lora', sans-serif;
 }
 
-.application button {
+.application button, .agenda button {
   padding: .5em;
   border-radius: .50em;
   background-color: rgb(161, 130, 104);
   color:rgb(206, 205, 203);
   border-color: rgb(203, 203, 203);
   font-family: 'Lora', sans-serif;
+  text-decoration: none;
 }
 
 .application button:hover {
   cursor: pointer;
 }
+
+.agenda {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+

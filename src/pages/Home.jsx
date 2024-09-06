@@ -1,28 +1,49 @@
 //Where the applications are listed.
-import '../styles/Home.css';
+import "../styles/Home.css";
+import agenda from "../../public/agendas/agenda9262024.pdf";
+import childrens from "../../public/applications/childrensaid.pdf";
+import morris from "../../public/applications/morristown.pdf";
+import summit from "../../public/applications/summitspeechschool.pdf";
+import seeing from "../../public/applications/theseeingeye.pdf";
 
 function Home() {
   return (
     <>
-    <h1>
-      Applications
-    </h1>
-    <div className="applications">
-      <div className="application">
-      <p>Application 1</p>
-      <button>View Application</button>
+      <h1>Agenda</h1>
+      <div className="agenda">
+        <button>
+          <a href={agenda}>Click here to view the Agenda</a>
+        </button>
       </div>
-      <div className="application">
-      <p>Application 2</p>
-      <button>View Application</button>
+      <h1>Applications</h1>
+      <div className="applications">
+        <div className="application">
+          <p>Children's Aid</p>
+          <button>
+            <a href={childrens}>View Application</a>
+          </button>
+        </div>
+        <div className="application">
+          <p>Morristow Medical Center</p>
+          <button>
+            <a href={morris}>View Application</a>
+          </button>
+        </div>
+        <div className="application">
+          <p>Summit Speech School</p>
+          <button>
+            <a href={summit}>View Application</a>
+          </button>
+        </div>
+        <div className="application">
+          <p>The Seeing Eye</p>
+          <button>
+            <a href={seeing}>View Application</a>
+          </button>
+        </div>
       </div>
-      <div className="application">
-      <p>Application 3</p>
-      <button>View Application</button>
-      </div>
-    </div>
     </>
-  )
+  );
 }
 
 export default Home;
