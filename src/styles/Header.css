@@ -5,7 +5,35 @@ header {
   margin-top: .50em;
   padding: .25em;
   font-size: 3em;
-  color: rgb(197, 181, 170);
+  color: rgb(210, 197, 188);
   font-family: 'Playfair Display', sans-serif;
   font-style: italic;
+}
+
+h3, h4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(192, 179, 171);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: .75em;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+h4 a {
+  text-decoration: none;
+  color: rgb(192, 179, 171);
+  margin: -.05em;
+}
+
+h4 p {
+  margin-right: -35em;
+}
+
+.space {
+  color: white;
 }

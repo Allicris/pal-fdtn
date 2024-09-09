@@ -10,6 +10,10 @@ function Home() {
   return (
     <>
       <h1>Agenda</h1>
+      <p className="meeting-info">
+        The next meeting is scheduled for Thursday, September 26 2024 at 10:00
+        am
+      </p>
       <div className="agenda">
         <button>
           <a href={agenda}>Click here to view the Agenda</a>
