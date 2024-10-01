@@ -15,7 +15,7 @@ function Home() {
         am
       </p>
       <div className="agenda">
-        <button>
+        <button className="agenda-button">
           <a href={agenda}>Click here to view the Agenda</a>
         </button>
       </div>

@@ -1,0 +1,25 @@
+.navigation {
+  list-style: none;
+  display: flex;
+  align-items: left;
+  margin: -.50em;
+  margin-left: -.50em;
+  margin-right: -.50em;
+  background-color: rgb(192, 179, 171);
+  font-family: "Montserrat", sans-serif;
+  box-shadow: .001em .15em 2em rgb(161, 150, 143);
+}
+
+.navigation li {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  transition-duration: 525ms;
+}
+
+.navigation li:hover {
+  background-color: rgb(83, 69, 59);
+  color:rgb(192, 179, 171);
+  cursor: pointer;
+}

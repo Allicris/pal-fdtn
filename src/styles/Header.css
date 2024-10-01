@@ -2,12 +2,16 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: .50em;
+  margin-top: 1em;
   padding: .25em;
   font-size: 3em;
   color: rgb(210, 197, 188);
   font-family: 'Playfair Display', sans-serif;
   font-style: italic;
+}
+
+h3 {
+  font-size: 1em;
 }
 
 h3, h4 {
@@ -17,23 +21,30 @@ h3, h4 {
   color: rgb(192, 179, 171);
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: .75em;
 }
 
 h4 {
   text-decoration: underline;
+  font-size: .78em;
 }
 
 h4 a {
   text-decoration: none;
   color: rgb(192, 179, 171);
   margin: -.05em;
+  transition: transform 0.5s;
 }
 
 h4 p {
-  margin-right: -35em;
+  margin-right: -40em;
 }
 
 .space {
   color: white;
+}
+
+h4 a:hover {
+  -ms-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.25, 1.25);
 }
