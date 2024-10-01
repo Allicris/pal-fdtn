@@ -1,20 +1,19 @@
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 import "./styles/App.css";
+import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
-// import Login from "./pages/Login";
-import Nav from "./components/Nav";
+
 
 function App() {
   return (
-    <>
-      <Nav />
+    <div style={root}>
+    <Nav />
     <Header />
-    {/* <Nav /> */}
-    {/* <Login /> */}
-    <Home />
+    <Outlet />
     <Footer />
-    </>
+    </div>
   );
 }
 

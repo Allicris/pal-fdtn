@@ -10,7 +10,9 @@
   box-shadow: .001em .15em 2em rgb(161, 150, 143);
 }
 
-.navigation li {
+.navigation a {
+  color: black;
+  text-decoration: none;
   padding-left: 2.5em;
   padding-right: 2.5em;
   padding-top: .75em;
@@ -18,7 +20,7 @@
   transition-duration: 525ms;
 }
 
-.navigation li:hover {
+.navigation a:hover {
   background-color: rgb(83, 69, 59);
   color:rgb(192, 179, 171);
   cursor: pointer;
