@@ -16,18 +16,23 @@ h2:after {
 }
 
 .president {
+  font-family: 'Jost', sans-serif;
+  font-size: 1em;
   list-style-type: none;
   text-align: center;
   padding-bottom: 3em;
+  color:rgb(211, 195, 184);
 }
 
 .president a {
+  font-family: 'Jost', sans-serif;
   text-decoration: none;
-  color: black;
-  transition: transform 0.65s;
+  color: rgb(211, 195, 184);
+  transition-duration: 525ms;
 }
 
 .president a:hover {
+  color: #12727D;
   cursor: pointer;
   -ms-transform: scale(1.5, 1.5);
   -webkit-transform: scale(1.5, 1.5);
@@ -35,19 +40,26 @@ h2:after {
 }
 
 .name-title {
- font-size: 1.50em;
+ font-size: 1.5em;
+ color: #3e858d;
+ font-family: 'Lora', sans-serif;
 }
 
 .member-name {
-  font-size: 1.15em;
+  font-size: 1.12em;
+  color: #ba895f;
+  padding-bottom: .50em;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 .members {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  color: black;
+  color: rgb(188, 173, 163);
   padding-bottom: 2.5em;
+  font-family: 'Jost', sans-serif;
+  font-size: 1em;
 }
 
 .member {
@@ -56,17 +68,17 @@ h2:after {
 
 .member a {
   text-decoration: none;
-  color: black;
+  color: rgb(188, 173, 163);
   transition-duration: 525ms;
 }
 
 .member a:hover {
-  color: rgb(170, 170, 169);
+  color: #3e858d;
 }
 
 .other {
   font-size: 1.45em;
-  color: rgb(170, 164, 159);
+  color: rgb(198, 196, 196);
   font-family: 'Lora', sans-serif;
   text-decoration: underline;
   padding: 1em;
