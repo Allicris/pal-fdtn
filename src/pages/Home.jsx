@@ -1,5 +1,5 @@
-//Where the applications are listed.
 import "../styles/Home.css";
+import Header from "../components/Header";
 import agenda from "../../public/agendas/agenda9262024.pdf";
 import childrens from "../../public/applications/childrensaid.pdf";
 import morris from "../../public/applications/morristown.pdf";
@@ -9,6 +9,7 @@ import seeing from "../../public/applications/theseeingeye.pdf";
 function Home() {
   return (
     <>
+      <Header />
       <h1>Agenda</h1>
       <p className="meeting-info">
         The next meeting is scheduled for Thursday, September 26 2024 at 10:00

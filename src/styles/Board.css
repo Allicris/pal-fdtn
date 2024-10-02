@@ -1,0 +1,73 @@
+h2 {
+  text-align: center;
+  font-size: 2.25em;
+  padding: 1em;
+  padding-top: 1em;
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+  color: rgb(197, 181, 170);
+}
+
+h2:after {
+  margin-top: .75em;
+  content: "";
+  display: block;
+  border: .02em solid rgb(110, 110, 110);
+}
+
+.president {
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.president a {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.65s;
+}
+
+.president a:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.10, 1.10);
+}
+
+.name-title {
+ font-size: 1.50em;
+}
+
+.member-name {
+  font-size: 1.15em;
+}
+
+.members {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  color: black;
+  padding-bottom: 2.5em;
+}
+
+.member {
+  list-style-type: none;
+}
+
+.member a {
+  text-decoration: none;
+  color: black;
+  transition-duration: 525ms;
+}
+
+.member a:hover {
+  color: rgb(170, 170, 169);
+}
+
+.other {
+  font-size: 1.45em;
+  color: rgb(170, 164, 159);
+  font-family: 'Lora', sans-serif;
+  text-decoration: underline;
+  padding: 1em;
+}
