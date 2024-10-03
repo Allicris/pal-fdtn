@@ -23,7 +23,7 @@ function Board() {
           <div className="member-info">
             <h2 className="member-name">Kristine Sayrafe</h2>
             <ul className="member">
-              <li>Trustee/Secretary/Manager</li>
+              <li>Trustee | Secretary | Manager</li>
               <li>Cell: (201) 774-9420</li>
               <li>
                 <a href="mailto:palestroni@hotmail.com">
@@ -35,7 +35,7 @@ function Board() {
           <div className="member-info">
             <h2 className="member-name">Frank Huttle, III, Esq.</h2>
             <ul className="member">
-              <li>Trustee/V.P./Treasurer</li>
+              <li>Trustee | V.P. | Treasurer</li>
               <li>Cell: (201) 906-5638</li>
               <li>
                 <a href="mailto:fhuttle@pashmanstein.com">
@@ -71,7 +71,7 @@ function Board() {
         </div>
         <div className="members">
           <div className="member-info">
-            <h2 className="other">Counsel:</h2>
+            <h2 className="other">Counsel</h2>
             <h2 className="member-name">Dariusz M. Winnicki, Esq.</h2>
             <ul className="member">
               <li>Hartman & Winnicki, P.C.</li>
@@ -88,7 +88,7 @@ function Board() {
           </div>
 
           <div className="member-info">
-            <h2 className="other">Accountant:</h2>
+            <h2 className="other">Accountant</h2>
             <h2 className="member-name">Spiros M. Backos</h2>
             <ul className="member">
               <li>The Backos Group</li>
@@ -105,10 +105,10 @@ function Board() {
           </div>
         </div>
         <div className="advisors">
-          <h2 className="other">Investment Advisors:</h2>
+          <h2 className="other">Investment Advisors</h2>
           <div className="members">
             <div >
-              <h2 className="member-name">
+              <h2 className="member-name-two">
                 Evan Steinberg, CIMA, Managing Director-Wealth Advisor
               </h2>
               <ul className="member">
@@ -125,7 +125,7 @@ function Board() {
               </ul>
             </div>
             <div>
-              <h2 className="member-name">
+              <h2 className="member-name-two">
                 Roderick McRae, CFA, CFP & Peter J. McRae, CFP
               </h2>
               <ul className="member">
@@ -142,7 +142,7 @@ function Board() {
               </ul>
             </div>
             <div>
-              <h2 className="member-name">Joseph G. Della Monica, CFP, MBA</h2>
+              <h2 className="member-name-two">Joseph G. Della Monica, CFP, MBA</h2>
               <ul className="member">
                 <li>Della Monica & Associates | Ameriprise Financial</li>
                 <li>3013 N. Ashland Avenue, Ste. 1</li>
