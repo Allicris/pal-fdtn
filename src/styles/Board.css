@@ -69,6 +69,14 @@
   font-weight: 100;
 }
 
+.member-name-two {
+  color: #8ab8bd;
+  font-size: 1.12em;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
 .member {
   font-size: .85em;
   margin-right: 1em;
