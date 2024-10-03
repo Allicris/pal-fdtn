@@ -1,4 +1,4 @@
-h2 {
+.trustees {
   text-align: center;
   font-size: 2.25em;
   padding: 1em;
@@ -8,7 +8,7 @@ h2 {
   color: rgb(197, 181, 170);
 }
 
-h2:after {
+.trustees:after {
   margin-top: .75em;
   content: "";
   display: block;
@@ -45,25 +45,39 @@ h2:after {
  font-family: 'Lora', sans-serif;
 }
 
-.member-name {
-  font-size: 1.12em;
-  color: #ba895f;
-  padding-bottom: .50em;
-  font-family: 'Playfair Display', sans-serif;
-}
-
 .members {
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color: rgb(188, 173, 163);
   padding-bottom: 2.5em;
   font-family: 'Jost', sans-serif;
   font-size: 1em;
 }
 
+.member-info {
+  display: block;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.member-name {
+  margin-left: 1.5em;
+  font-size: 1.12em;
+  color: #ba895f;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 100;
+}
+
 .member {
+  font-size: .85em;
+  margin-right: 1em;
+  padding-right: 1.75em;
+  padding-top: .75em;
+  padding-bottom: .75em;
   list-style-type: none;
+  border: .10em solid rgb(131, 120, 111);
+  background-color: #9d81684a;
 }
 
 .member a {
@@ -78,8 +92,19 @@ h2:after {
 
 .other {
   font-size: 1.45em;
+  font-weight: 100;
   color: rgb(198, 196, 196);
   font-family: 'Lora', sans-serif;
-  text-decoration: underline;
-  padding: 1em;
+}
+
+.other:after {
+  margin-top: .25em;
+  content: "";
+  display: block;
+  border: .02em solid rgb(110, 110, 110);
+}
+
+.advisors {
+  display: block;
+  text-align: center;
 }
