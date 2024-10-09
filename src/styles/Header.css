@@ -18,7 +18,7 @@ h3, h4 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: rgb(192, 179, 171);
+  color: #c2a286;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
@@ -44,7 +44,7 @@ h4 p {
 }
 
 h4 a:hover {
-  color: #12727D;
+  color: #57a8b0;
   -ms-transform: scale(1.5, 1.5);
   -webkit-transform: scale(1.5, 1.5);
   transform: scale(1.25, 1.25);

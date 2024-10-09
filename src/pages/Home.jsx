@@ -10,41 +10,60 @@ function Home() {
   return (
     <>
       <Header />
-      <h1>Agenda</h1>
+      <h1 className="home-title">Agenda</h1>
       <p className="meeting-info">
-        The next meeting is scheduled for Thursday, September 26 2024 at 10:00
-        am
+        I would like to extend a thank you to everyone for contributing to the last meeting. Details of the next meeting will be posted soon!
       </p>
+      <p className="meeting-info">- Kristine Sayrafe</p>
       <div className="agenda">
         <button className="agenda-button">
-          <a href={agenda}>Click here to view the Agenda</a>
+          <a href={agenda}>View Agenda</a>
         </button>
       </div>
-      <h1>Applications</h1>
+      <h1 className="home-title">Applications</h1>
       <div className="applications">
         <div className="application">
-          <p>Children's Aid</p>
-          <button>
+          <p className="application-name-sm">Children's Aid</p>
+          <div className="application-info">
+            <p>Visit their Website</p>
+            <p>Print</p>
+            <button>
             <a href={childrens}>View Application</a>
           </button>
+            </div>
+          
         </div>
         <div className="application">
-          <p>Morristown Medical Center</p>
+          <p className="application-name-lg">Morristown Medical Center</p>
+          <div className="application-info">
+          <p>Visit their Website</p>
+          <p>Print</p>
           <button>
             <a href={morris}>View Application</a>
           </button>
+          </div>
         </div>
         <div className="application">
-          <p>Summit Speech School</p>
+          <p className="application-name-lg">Summit Speech School</p>
+          <div className="application-info">
+          <p>Visit their Website</p>
+          <p>Print</p>
           <button>
             <a href={summit}>View Application</a>
           </button>
+          </div>
+
         </div>
         <div className="application">
-          <p>The Seeing Eye</p>
+          <p className="application-name-sm">The Seeing Eye</p>
+          <div className="application-info">
+          <p>Visit their Website</p>
+          <p>Print</p>
           <button>
-            <a href={seeing}>View Application</a>
+            <a href={summit}>View Application</a>
           </button>
+          </div>
+
         </div>
       </div>
     </>
