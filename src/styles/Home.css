@@ -25,6 +25,7 @@
 .application {
   padding: 1.25em;
   padding-right: 2.5em;
+  padding-left: 4em;
   text-align: left;
   color: rgb(233, 219, 193);
   border: .10em solid #a1c9cea7;
@@ -41,8 +42,8 @@
   padding: .50em;
   color: rgb(66, 43, 10);
   position: absolute;
-  top: -2em;
-  right: 1.30em;
+  top: -2.5em;
+  right: 3em;
 }
 
 .application-name-lg {
@@ -51,15 +52,20 @@
   font-family: 'Playfair Display', sans-serif;
   font-weight: 500;
   background-color:#e1c2a8 ;
-  padding: .50em;
+  padding-top: .50em;
+  padding-bottom: .50em;
+  margin-left: .5em;
+  padding-left: .5em;
+  padding-right: .05em;
   color: rgb(66, 43, 10);
   position: absolute;
-  top: -3.25em;
-  right: .25em;
+  top: -3em;
+  right: 1em;
 }
 
 .application-info {
   font-family:'Montserrat', sans-serif;
+  margin-left: -1.5em;
 }
 
 .application button, .agenda-button {
