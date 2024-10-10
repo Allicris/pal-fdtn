@@ -5,6 +5,7 @@ import childrens from "../../public/applications/childrensaid.pdf";
 import morris from "../../public/applications/morristown.pdf";
 import summit from "../../public/applications/summitspeechschool.pdf";
 import seeing from "../../public/applications/theseeingeye.pdf";
+import print from "../../public/icons/print.png";
 
 function Home() {
   return (
@@ -25,8 +26,11 @@ function Home() {
         <div className="application">
           <p className="application-name-sm">Children's Aid</p>
           <div className="application-info">
-            <p>Visit their Website</p>
-            <p>Print</p>
+            <p>Visit Website</p>
+            <div className="print">
+          <img src={print}></img>
+          <p>Print</p>
+          </div>
             <button>
             <a href={childrens}>View Application</a>
           </button>
@@ -36,8 +40,11 @@ function Home() {
         <div className="application">
           <p className="application-name-lg">Morristown Medical Center</p>
           <div className="application-info">
-          <p>Visit their Website</p>
+          <p>Visit Website</p>
+          <div className="print">
+          <img src={print}></img>
           <p>Print</p>
+          </div>
           <button>
             <a href={morris}>View Application</a>
           </button>
@@ -46,8 +53,11 @@ function Home() {
         <div className="application">
           <p className="application-name-lg">Summit Speech School</p>
           <div className="application-info">
-          <p>Visit their Website</p>
+          <p>Visit Website</p>
+          <div className="print">
+          <img src={print}></img>
           <p>Print</p>
+          </div>
           <button>
             <a href={summit}>View Application</a>
           </button>
@@ -57,10 +67,13 @@ function Home() {
         <div className="application">
           <p className="application-name-sm">The Seeing Eye</p>
           <div className="application-info">
-          <p>Visit their Website</p>
+          <p>Visit Website</p>
+          <div className="print">
+          <img src={print}></img>
           <p>Print</p>
+          </div>
           <button>
-            <a href={summit}>View Application</a>
+            <a href={seeing}>View Application</a>
           </button>
           </div>
 
