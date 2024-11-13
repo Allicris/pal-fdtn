@@ -28,8 +28,7 @@ function Home() {
       <Header />
       <h1 className="home-title">Agenda</h1>
       <p className="meeting-info">
-        I would like to extend a thank you to everyone for contributing to the
-        last meeting. Details of the next meeting will be posted soon!
+        Our next teleconference Board Meeting is scheduled for Thursday, December 5, 2024 at 10:00 am. Dariusz's office will send a tele-link for you to call in. Thank you all and Happy Thanksgiving!
       </p>
       <p className="meeting-info">- Kristine Sayrafe</p>
       <div className="agenda">
