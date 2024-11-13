@@ -68,6 +68,7 @@
 }
 
 .application-info {
+  display: block;
   font-family:'Montserrat', sans-serif;
   margin-left: -1.5em;
 }
@@ -75,8 +76,9 @@
 .print {
   display: flex;
   align-items: center;
-  margin-top: -1em;
+  margin-top: -.75em;
 }
+
 .print img {
   max-width: 1.25em;
   padding-right: 0.5em;
@@ -111,9 +113,18 @@
 }
 
 .agenda {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  text-align: center;
+}
+
+.agenda-print {
+  text-decoration: underline;
+  color: #6d969a;
+  font-family: "Montserrat", sans-serif;
+}
+
+.agenda-print:hover {
+  color: white;
+  cursor: pointer;
 }
 
 button a {
@@ -129,4 +140,20 @@ button a {
   padding-bottom: 1em;
   padding-left: 4em;
   padding-right: 4em;
+}
+
+.links {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(233, 219, 193);
+  padding-top: .80em;
+  padding-bottom: .75em;
+}
+
+.print:hover {
+  color: white;
+}
+
+.links:hover {
+  color:white;
 }
