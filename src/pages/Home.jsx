@@ -1,10 +1,8 @@
 import "../styles/Home.css";
 import Header from "../components/Header";
-import agenda from "../../public/agendas/agenda9262024.pdf";
-import childrens from "../../public/applications/childrensaid.pdf";
-import morris from "../../public/applications/morristown.pdf";
-import summit from "../../public/applications/summitspeechschool.pdf";
-import seeing from "../../public/applications/theseeingeye.pdf";
+import agenda from "../../public/agendas/agenda1252024.pdf";
+import kessler from "../../public/applications/kessler.pdf";
+import alpine from "../../public/applications/alpine.pdf";
 import print from "../../public/icons/print.png";
 
 function Home() {
@@ -42,12 +40,12 @@ function Home() {
       <h1 className="home-title">Applications</h1>
       <div className="applications">
         <div className="application">
-          <p className="application-name-sm">Children's Aid</p>
+          <p className="application-name-lg">Alpine Learning Group</p>
           <div className="application-info">
-            <a className="links" href="https://cafsnj.org/">Visit Website</a>
+            <a className="links" href="https://www.alpinelearninggroup.org">Visit Website</a>
             <div
               className="print"
-              onClick={() => handlePrint(childrens)}
+              onClick={() => handlePrint(alpine)}
               style={{ cursor: "pointer" }}
             >
               <img src={print}></img>
@@ -55,64 +53,26 @@ function Home() {
             </div>
             
             <button>
-              <a href={childrens} target="_blank" rel="noopener noreferrer">
+              <a href={alpine} target="_blank" rel="noopener noreferrer">
                 View Application
               </a>
             </button>
           </div>
         </div>
         <div className="application">
-          <p className="application-name-lg">Morristown Medical Center</p>
+          <p className="application-name-lg">Kessler Foundation</p>
           <div className="application-info">
-            <a className="links" href="https://www.atlantichealth.org/locations/morristown-medical-center">Visit Website</a>
+            <a className="links" href="https://kesslerfoundation.org">Visit Website</a>
             <div
               className="print"
-              onClick={() => handlePrint(morris)}
+              onClick={() => handlePrint(kessler)}
               style={{ cursor: "pointer" }}
             >
               <img src={print}></img>
               <p>Print</p>
             </div>
             <button>
-              <a href={morris} target="_blank" rel="noopener noreferrer">
-                View Application
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="application">
-          <p className="application-name-lg">Summit Speech School</p>
-          <div className="application-info">
-            <a className="links" href="https://summitspeech.org/">Visit Website</a>
-            <div
-              className="print"
-              onClick={() => handlePrint(summit)}
-              style={{ cursor: "pointer" }}
-            >
-              <img src={print}></img>
-              <p>Print</p>
-            </div>
-            <button>
-              <a href={summit} target="_blank" rel="noopener noreferrer">
-                View Application
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="application">
-          <p className="application-name-sm">The Seeing Eye</p>
-          <div className="application-info">
-            <a className="links" href="https://seeingeye.org/">Visit Website</a>
-            <div
-              className="print"
-              onClick={() => handlePrint(seeing)}
-              style={{ cursor: "pointer" }}
-            >
-              <img src={print}></img>
-              <p>Print</p>
-            </div>
-            <button>
-              <a href={seeing} target="_blank" rel="noopener noreferrer">
+              <a href={kessler} target="_blank" rel="noopener noreferrer">
                 View Application
               </a>
             </button>
