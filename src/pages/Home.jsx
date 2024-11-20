@@ -1,26 +1,10 @@
 import "../styles/Home.css";
 import Header from "../components/Header";
+import ApplicationsList from "../components/ApplicationList";
 import agenda from "../../public/agendas/agenda1252024.pdf";
-import kessler from "../../public/applications/kessler.pdf";
-import alpine from "../../public/applications/alpine.pdf";
-import print from "../../public/icons/print.png";
+import { handlePrint } from "../utilities/utils";
 
 function Home() {
-  const handlePrint = (fileUrl) => {
-    const iframe = document.createElement("iframe");
-    iframe.style.position = "absolute";
-    iframe.style.width = "0px";
-    iframe.style.height = "0px";
-    iframe.style.border = "none";
-    iframe.src = fileUrl;
-
-    document.body.appendChild(iframe);
-
-    iframe.onload = () => {
-      iframe.contentWindow.print();
-    };
-  };
-
   return (
     <>
       <Header />
@@ -38,47 +22,7 @@ function Home() {
         <p className="agenda-print" onClick={() => handlePrint(agenda)}>Print</p>
       </div>
       <h1 className="home-title">Applications</h1>
-      <div className="applications">
-        <div className="application">
-          <p className="application-name-lg">Alpine Learning Group</p>
-          <div className="application-info">
-            <a className="links" href="https://www.alpinelearninggroup.org">Visit Website</a>
-            <div
-              className="print"
-              onClick={() => handlePrint(alpine)}
-              style={{ cursor: "pointer" }}
-            >
-              <img src={print}></img>
-              <p>Print</p>
-            </div>
-            
-            <button>
-              <a href={alpine} target="_blank" rel="noopener noreferrer">
-                View Application
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className="application">
-          <p className="application-name-lg">Kessler Foundation</p>
-          <div className="application-info">
-            <a className="links" href="https://kesslerfoundation.org">Visit Website</a>
-            <div
-              className="print"
-              onClick={() => handlePrint(kessler)}
-              style={{ cursor: "pointer" }}
-            >
-              <img src={print}></img>
-              <p>Print</p>
-            </div>
-            <button>
-              <a href={kessler} target="_blank" rel="noopener noreferrer">
-                View Application
-              </a>
-            </button>
-          </div>
-        </div>
-      </div>
+      <ApplicationsList />
     </>
   );
 }
