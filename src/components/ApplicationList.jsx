@@ -8,7 +8,7 @@ import { handlePrint } from '../utilities/utils';
 const ApplicationsList = () => {
   const applications = [
     {
-      name: "Alpine Learning Grou",
+      name: "Alpine Learning Groupppppp",
       website: "https://www.alpinelearninggroup.org",
       fileUrl: alpine,
     },
