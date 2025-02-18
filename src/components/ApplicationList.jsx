@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/ApplicationList.css';
 //YOU ONLY NEED TO CHANGE THE NAMES .. NOT THE PATH.
-import alpine from '../../public/applications/alpine.pdf';
+import spectrum from '../../public/applications/spectrum.pdf';
 import kessler from '../../public/applications/kessler.pdf';
 import ApplicationCard from './ApplicationCard';
 import { handlePrint } from '../utilities/utils';
@@ -9,9 +9,9 @@ import { handlePrint } from '../utilities/utils';
 const ApplicationsList = () => {
   const applications = [
     {
-      name: "Alpine Learning Group",
-      website: "https://www.alpinelearninggroup.org",
-      fileUrl: alpine,
+      name: "Spectrum for Living Development, Inc.",
+      website: "https://spectrumforliving.org/",
+      fileUrl: spectrum, // this needs to match the import name
     },
     {
       name: "Kessler Foundation",
