@@ -9,7 +9,7 @@ import { handlePrint } from '../utilities/utils';
 const ApplicationsList = () => {
   const applications = [
     {
-      name: "Spectrum for Living Development, Inc.",
+      name: "Spectrum for Living",
       website: "https://spectrumforliving.org/",
       fileUrl: spectrum, // this needs to match the import name
     },
