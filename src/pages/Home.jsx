@@ -10,7 +10,7 @@ function Home() {
       <Header />
       <h1 className="home-title">Agenda</h1>
       <p className="meeting-info">
-        Our next teleconference Board Meeting is scheduled for Thursday, April 24, 2025 at 10:00 am. Dariusz's office will send a tele-link for you to call in. 
+        Our next teleconference Board Meeting is scheduled for Thursday, April 24, 2025 at 10:00 am. Dariusz's office will send a tele-link for you to call in.</p> 
       <p className="meeting-info">- Kristine Sayrafe</p>
       <div className="agenda">
         <button className="agenda-button">
@@ -24,6 +24,7 @@ function Home() {
       <ApplicationsList />
     </>
   );
-}
+};
+
 
 export default Home;
