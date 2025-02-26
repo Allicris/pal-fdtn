@@ -1,7 +1,7 @@
 import "../styles/Home.css";
 import Header from "../components/Header";
 import ApplicationsList from "../components/ApplicationList";
-import agenda from "../../public/agendas/agenda1252024.pdf"; //Change name of agenda file
+import agenda from "../../public/agendas/agenda1252024.pdf"; // CHANGE TO THE NEW AGENDA YOU UPLOADED
 import { handlePrint } from "../utilities/utils";
 
 function Home() {
@@ -9,9 +9,8 @@ function Home() {
     <>
       <Header />
       <h1 className="home-title">Agenda</h1>
-      <p className="meeting-info"> 
-        Our next teleconference Board Meeting is scheduled for Thursday, December 5, 2024 at 10:00 am. Dariusz's office will send a tele-link for you to call in. Thank you all and Happy Thanksgiving!
-      </p>
+      <p className="meeting-info">
+        Our next teleconference Board Meeting is scheduled for Thursday, April 24, 2025 at 10:00 am. Dariusz's office will send a tele-link for you to call in. 
       <p className="meeting-info">- Kristine Sayrafe</p>
       <div className="agenda">
         <button className="agenda-button">
