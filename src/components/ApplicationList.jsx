@@ -1,28 +1,28 @@
 import React from 'react';
 import '../styles/ApplicationList.css';
 //YOU ONLY NEED TO CHANGE THE NAMES .. NOT THE PATH.
-import spectrum from '../../public/applications/spectrum.pdf';
-import specialized from '../../public/applications/specialized.pdf';
-import crossroads from '../../public/applications/crossroads.pdf';
+import bergen from '../../public/applications/bergen.pdf';
+import morristown from '../../public/applications/morristown.pdf';
+import reed from '../../public/applications/reed.pdf';
 import ApplicationCard from './ApplicationCard';
 import { handlePrint } from '../utilities/utils';
 
 const ApplicationsList = () => {
   const applications = [
     {
-      name: "Spectrum for Living",
-      website: "https://spectrumforliving.org/",
-      fileUrl: spectrum, // this needs to match the import name
+      name: "Bergen Volunteers",
+      website: "https://bergenvolunteers.org/",
+      fileUrl: bergen, // this needs to match the import name
     },
     {
-      name: "Children's Specialized",
-      website: "https://childrens-specialized.org/",
-      fileUrl: specialized,
+      name: "Foundation for Morristown",
+      website: "https://f4mmc.org/",
+      fileUrl: morristown,
     },
     {
-      name: "Crossroads4Hope",
-      website: "https://crossroads4hope.org/",
-      fileUrl: crossroads,
+      name: "REED Foundation",
+      website: "https://reedautismservices.org/",
+      fileUrl: reed,
     },
     // { COPY & PASTE THIS SECTION TO ADD ANOTHER APPLICATION, MAKE SURE IT'S INSIDE THE "]" BELOW
     //   name: "Kessler Foundation",
