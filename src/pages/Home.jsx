@@ -1,7 +1,7 @@
 import "../styles/Home.css";
 import Header from "../components/Header";
 import ApplicationsList from "../components/ApplicationList";
-import agenda from "../../public/agendas/agenda04242025.pdf"; // CHANGE TO THE NEW AGENDA YOU UPLOADED
+import agenda from "../../public/agendas/agenda09182025.pdf"; // CHANGE TO THE NEW AGENDA YOU UPLOADED
 import { handlePrint } from "../utilities/utils";
 
 function Home() {
