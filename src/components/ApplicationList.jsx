@@ -18,11 +18,7 @@ const ApplicationsList = () => {
       name: "Foundation for Morristown",
       website: "https://f4mmc.org/",
       fileUrl: morristown,
-    },
-    {
-      name: "REED Foundation",
-      website: "https://reedautismservices.org/",
-      fileUrl: reed,
+
     },
     // { COPY & PASTE THIS SECTION TO ADD ANOTHER APPLICATION, MAKE SURE IT'S INSIDE THE "]" BELOW
     //   name: "Kessler Foundation",
