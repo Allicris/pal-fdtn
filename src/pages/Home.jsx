@@ -10,7 +10,7 @@ function Home() {
       <Header />
       <h1 className="home-title">Agenda</h1>
       <p className="meeting-info">
-        Our next teleconference Board Meeting is scheduled for Thursday, December 4, 2025 at 10:00 am. Kristine will send a ZOOM-link for you to call in.</p> 
+        Our next teleconference Board Meeting is scheduled for Wednesday, March 18, 2026 at 10:00 am. Kristine will send a ZOOM-link for you to call in.</p> 
       <p className="meeting-info">- Kristine Sayrafe</p>
       <div className="agenda">
         <button className="agenda-button">
