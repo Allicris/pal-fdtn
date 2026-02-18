@@ -3,7 +3,6 @@ import '../styles/ApplicationList.css';
 //YOU ONLY NEED TO CHANGE THE NAMES .. NOT THE PATH.
 import bergen2026 from '../../public/applications/bergen2026.pdf';
 import friedreich2026 from '../../public/applications/friedreich2026.pdf';
-import spectrum2026 from '../..public/applications/spectrum2026.pdf';
 import ApplicationCard from './ApplicationCard';
 import { handlePrint } from '../utilities/utils';
 
@@ -18,11 +17,6 @@ const ApplicationsList = () => {
       name: "Friedreich's Ataxia Research Alliance",
       website: "https://curefa.org/",
       fileUrl: friedreich2026,
-    },
-    { 
-      name: "Spectrum for Living",
-      website: "https://spectrumforlving.org/",
-      fileUrl: spectrum2026,
     },
     // { COPY & PASTE THIS SECTION TO ADD ANOTHER APPLICATION, MAKE SURE IT'S INSIDE THE "]" BELOW
     //   name: "Kessler Foundation",
