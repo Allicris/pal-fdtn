@@ -16,7 +16,7 @@ const ApplicationsList = () => {
     },
     {
       name: "Spectrum For Living",
-      website: "https://spectrumfoundation.org/",
+      website: "https://spectrumforliving.org/",
       fileUrl: spectrum2026,
     },
     {
