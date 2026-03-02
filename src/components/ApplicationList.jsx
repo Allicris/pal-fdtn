@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/ApplicationList.css';
 //YOU ONLY NEED TO CHANGE THE NAMES .. NOT THE PATH.
 import bergen2026 from '../../public/applications/bergen2026.pdf';
+import spectrum2026 from '../../public/applications/spectrum2026.pdf';
 import friedreich2026 from '../../public/applications/friedreich2026.pdf';
 import ApplicationCard from './ApplicationCard';
 import { handlePrint } from '../utilities/utils';
@@ -12,6 +13,11 @@ const ApplicationsList = () => {
       name: "Bergen Family Center",
       website: "https://bergenfamilycenter.org/",
       fileUrl: bergen2026, // this needs to match the import name
+    },
+    {
+      name: "Spectrum For Living",
+      website: "https://spectrumfoundation.org/",
+      fileUrl: spectrum2026,
     },
     {
       name: "Friedreich's Ataxia Research Alliance",
