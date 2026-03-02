@@ -20,7 +20,7 @@ const ApplicationsList = () => {
       fileUrl: spectrum2026,
     },
     {
-      name: "Friedreich's Ataxia Research Alliance",
+      name: "Friedreich's Ataxia Research",
       website: "https://curefa.org/",
       fileUrl: friedreich2026,
     },
