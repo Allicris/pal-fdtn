@@ -10,9 +10,9 @@ import { handlePrint } from '../utilities/utils';
 const ApplicationsList = () => {
   const applications = [
     {
-      name: "Bergen Family Center",
-      website: "https://bergenfamilycenter.org/",
-      fileUrl: bergen2026, // this needs to match the import name
+      name: "The Arc Morris County",
+      website: "https://arcmorris.org/",
+      fileUrl: arcmorris2026, // this needs to match the import name
     },
     {
       name: "Spectrum For Living",
