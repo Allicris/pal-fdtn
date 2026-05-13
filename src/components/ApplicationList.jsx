@@ -3,7 +3,7 @@ import '../styles/ApplicationList.css';
 //YOU ONLY NEED TO CHANGE THE NAMES .. NOT THE PATH.
 import arcmorris2026 from '../../public/applications/arcmorris2026.pdf';
 import buehler2026 from '../../public/applications/buehler2026.pdf';
-import friedreich2026 from '../../public/applications/friedreich2026.pdf';
+import specialized2026 from '../../public/applications/specialized2026.pdf';
 import ApplicationCard from './ApplicationCard';
 import { handlePrint } from '../utilities/utils';
 
