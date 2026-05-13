@@ -15,7 +15,7 @@ const ApplicationsList = () => {
       fileUrl: arcmorris2026, // this needs to match the import name
     },
     {
-      name: "Buehler Challenger & Science Center",
+      name: "Buehler Challenger",
       website: "https://bcsc.org/",
       fileUrl: buehler2026,
     },
