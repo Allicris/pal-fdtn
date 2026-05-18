@@ -21,7 +21,7 @@ const ApplicationsList = () => {
       fileUrl: buehler2026,
     },
     {
-      name: "Bergen Performing Arts Center",
+      name: "Bergen PAC",
       website: "https://bergenpac.org/",
       fileUrl: bergenpac2026,
     },
