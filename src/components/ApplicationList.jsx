@@ -20,6 +20,11 @@ const ApplicationsList = () => {
       fileUrl: buehler2026,
     },
     {
+      name: "Bergen Performing Arts Center",
+      website: "https://bergenpac.org/",
+      fileUrl: bergenpac2026,
+    },
+    {
       name: "Children's Specialized",
       website: "https://give2csh.org/",
       fileUrl: specialized2026,
