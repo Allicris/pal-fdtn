@@ -4,7 +4,6 @@ import '../styles/ApplicationList.css';
 import arcmorris2026 from '../../public/applications/arcmorris2026.pdf';
 import buehler2026 from '../../public/applications/buehler2026.pdf';
 import bergenpac2026 from '../../public/applications/bergenpac2026.pdf';
-import hackensackk2026 from '../../public/applications/hackensackk2026.pdf';
 import specialized2026 from '../../public/applications/specialized2026.pdf';
 import ApplicationCard from './ApplicationCard';
 import { handlePrint } from '../utilities/utils';
