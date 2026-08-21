@@ -14,9 +14,9 @@ const ApplicationsList = () => {
       fileUrl: childrenaid2026, // this needs to match the import name
     },
     {
-      name: "Buehler Challenger",
-      website: "https://bcsc.org/",
-      fileUrl: buehler2026,
+      name: "Englewood Health",
+      website: "https://englewoodhealthfoundation.org/",
+      fileUrl: englewood2026,
     },
     // { COPY & PASTE THIS SECTION TO ADD ANOTHER APPLICATION, MAKE SURE IT'S INSIDE THE "]" BELOW
     //   name: "Kessler Foundation",
