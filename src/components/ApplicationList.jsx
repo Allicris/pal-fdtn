@@ -25,11 +25,6 @@ const ApplicationsList = () => {
       website: "https://bergenpac.org/",
       fileUrl: bergenpac2026,
     },
-    {
-      name: "Children's Specialized",
-      website: "https://give2csh.org/",
-      fileUrl: specialized2026,
-    },
     // { COPY & PASTE THIS SECTION TO ADD ANOTHER APPLICATION, MAKE SURE IT'S INSIDE THE "]" BELOW
     //   name: "Kessler Foundation",
     //   website: "https://kesslerfoundation.org",
