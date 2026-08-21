@@ -19,11 +19,6 @@ const ApplicationsList = () => {
       website: "https://bcsc.org/",
       fileUrl: buehler2026,
     },
-    {
-      name: "Bergen PAC",
-      website: "https://bergenpac.org/",
-      fileUrl: bergenpac2026,
-    },
     // { COPY & PASTE THIS SECTION TO ADD ANOTHER APPLICATION, MAKE SURE IT'S INSIDE THE "]" BELOW
     //   name: "Kessler Foundation",
     //   website: "https://kesslerfoundation.org",
