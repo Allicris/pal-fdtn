@@ -4,6 +4,7 @@ import '../styles/ApplicationList.css';
 import childrenaid2026 from '../../public/applications/childrenaid2026.pdf';
 import englewood2026 from '../../public/applications/englewood2026.pdf';
 import alpine2026 from '../../public/applications/alpine2026.pdf';
+import summit2026 from '../../public/applications/summit2026.pdf';
 import ApplicationCard from './ApplicationCard';
 import { handlePrint } from '../utilities/utils';
 
