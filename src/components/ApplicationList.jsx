@@ -20,10 +20,15 @@ const ApplicationsList = () => {
       website: "https://englewoodhealthfoundation.org/",
       fileUrl: englewood2026,
     },
-     {
+    {
       name: "Alpine Learning Group",
       website: "https://alpinelearninggroup.org/",
       fileUrl: alpine2026,
+    },
+    {
+      name: "Summit Spech",
+      website: "https://summitspeech.org/",
+      fileUrl: summit2026, // this needs to match the import name
     },
     // { COPY & PASTE THIS SECTION TO ADD ANOTHER APPLICATION, MAKE SURE IT'S INSIDE THE "]" BELOW
     //   name: "Kessler Foundation",
